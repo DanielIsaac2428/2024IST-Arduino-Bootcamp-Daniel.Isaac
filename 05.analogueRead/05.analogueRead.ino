@@ -15,7 +15,7 @@
   Schematic:
     https://github.com/TempeHS/TempeHS_Ardunio_Boilerplate/blob/main/Ardunio_Bootcamp/05.serialRead/Bootcamp-serialRead.png
 */
-
+static unsigned int  
 void setup() {
 
 }
