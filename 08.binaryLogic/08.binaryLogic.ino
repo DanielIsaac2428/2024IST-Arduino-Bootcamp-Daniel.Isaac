@@ -32,8 +32,30 @@
 */
 
 void setup() {
+Serial.begin(9600);
+Serial.println("SM Working");
+Serial.println("-----------------");  
+float myInt1 = 2;      
+int myInt2 = 3;
+int result = myInt1 * myInt2;
 
+while(result < 10) {
+  Serial.println(result);
+  result = result + 2;
+if (result == 7 ) {
+  Serial.println("result equals 7");
 }
+
+
+  Serial.println("true");
+  Serial.println(result);
+} else if ("result < 10") {
+  Serial.println("result is less than 10");
+  Serial.println("false");
+
+
+
+
 
 void loop() {
 
